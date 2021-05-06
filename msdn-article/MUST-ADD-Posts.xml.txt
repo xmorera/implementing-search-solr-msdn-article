@@ -1,0 +1,8 @@
+﻿# Getting Posts Data
+The data that I will index and make searchable is the posts from StackOverflow... or either one of the StackExchange sites. Why? Because mostly everyone knows StackOverflow, has used it, and most likely has searched for an answer and found it there. 
+
+The data dumps are provided for free, and available in https://archive.org/details/stackexchange. The posts from each site follow the same format, so it is possible to load a few hundred records from one of the minor sites or many million from the main StackOverflow site.  The format of the XML file is the same, regardless of the site that you pick.
+
+In my particular case I used datascience.stackexchange.com which I obtained from: https://archive.org/download/stackexchange/datascience.stackexchange.com.7z
+
+Please download and extract Posts.xml into the root of the msdn-article-demo before running the code.
